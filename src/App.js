@@ -7,7 +7,7 @@ function App() {
     <div className="App">
       <div className="container">
         <img src={logo} className="logo" alt="logo"/>
-        <Dictionary />
+        <Dictionary defaultKeyword="flibbertigibbet"/>
       </div>
     </div>
   );
