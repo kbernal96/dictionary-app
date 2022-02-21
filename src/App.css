@@ -2,28 +2,35 @@ footer {
   margin-top: 1em;
   font-size: 11px;
   text-align: center;
+  letter-spacing: 1px;
 }
 
 .App {
   text-align: left;
-  background-color: #282c34;
+  background-color: #ea8a8a;
   min-height: 100vh;
   padding-top: 3em;
-  color: white;
+  color:#323643;
 }
 
 .logo {
   margin-bottom: 5e;
-  margin: 0 auto 5em;
+  margin: 0 auto 1em;
   display: block;
-  max-width: 100px;
-  max-height: 100px;
+  max-width: 500px;
+  max-height: 350px;
 }
 
 .coder {
   font-style: italic;
-  color: #ddd; 
+  color: #f2f2f2; 
   text-decoration: none;
+  font-weight: 500;
+}
+
+.coder:hover {
+  color: rgba(255, 217, 0, 0.836);
+
 }
 
 

@@ -8,10 +8,11 @@ h2 {
 }
 
 .Dictionary section {
-    background-color:lightsalmon;
+    background: #ebd5d5;
     padding: 30px;
     margin: 15px 0;
-    border-radius: 16px;   
+    border-radius: 16px;  
+    border: 1px solid #685454; 
     box-shadow: 0 5px 15px rgb(0 0 0 / 10%); 
 }
 
@@ -19,7 +20,7 @@ h2 {
     width: 100%;
     border-radius: 8px;
     padding: 6px 4px;
-    border: 1px solid #ddd;
+    border: 1px solid #685454;
 }
 
 .suggestion {

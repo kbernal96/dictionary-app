@@ -9,7 +9,7 @@ function App() {
         <img src={logo} className="logo" alt="logo"/>
         <Dictionary defaultKeyword="flibbertigibbet"/>
       </div>
-      <footer mt-5>
+      <footer>
         Open-source code by 
         <a className="coder" href="https://github.com/kbernal96/dictionary-app" target="_blank" rel="noreferrer"> Karla Bernal</a>
       </footer>

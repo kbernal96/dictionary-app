@@ -8,7 +8,7 @@ export default function Dictionary(props) {
     const [keyword, setKeyword] = useState(props.defaultKeyword);
     let [results, setResults] = useState("");
     let [loaded, setLoaded] = useState(false);
-    let [photos, setPhotos] = useState();
+    let [photos, setPhotos] = useState([]);
 
     function handleDictionaryResponse(response) {
         setResults(response.data[0]);
@@ -64,7 +64,7 @@ export default function Dictionary(props) {
                 </div>
                 </section>
                 <Results results={results}/>
-                <Photos photos={photos}/>
+                {photos.length > 0 && <Photos photos={photos} />}
                 </div>
             </div>
         );
