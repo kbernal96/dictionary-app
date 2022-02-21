@@ -1,6 +1,6 @@
 import './App.css';
 import Dictionary from './Dictionary';
-import logo from "./logo/dictionaryLogo.png";
+import logo from "./logo/logo.png";
 
 function App() {
   return (
