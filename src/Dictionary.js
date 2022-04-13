@@ -11,6 +11,7 @@ export default function Dictionary(props) {
     let [photos, setPhotos] = useState([]);
 
     function handleDictionaryResponse(response) {
+        console.log(response.data[0]);
         setResults(response.data[0]);
     }
 
